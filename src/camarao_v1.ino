@@ -19,7 +19,7 @@ float tempsDS18B20[4];
 
 // DHT22 ===================
 #define DHTPIN1 5
-#define DHTPIN2 18
+#define DHTPIN2 19
 #define DHTTYPE DHT22
 DHT dht1(DHTPIN1, DHTTYPE);
 DHT dht2(DHTPIN2, DHTTYPE);
@@ -27,7 +27,7 @@ float tempDHT1, humiDHT1;
 float tempDHT2, humiDHT2;
 
 // Botão Push ==============
-#define BUTTON_PIN 19
+#define BUTTON_PIN 22
 bool buttonPressed = false;
 
 // WiFi ====================
