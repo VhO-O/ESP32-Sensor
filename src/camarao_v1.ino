@@ -18,7 +18,7 @@ DeviceAddress sensorAddresses[] = {
 float tempsDS18B20[4];
 
 // DHT22 ===================
-#define DHTPIN1 5
+#define DHTPIN1 19
 #define DHTPIN2 22
 #define DHTTYPE DHT22
 DHT dht1(DHTPIN1, DHTTYPE);
@@ -27,7 +27,7 @@ float tempDHT1, humiDHT1;
 float tempDHT2, humiDHT2;
 
 // Botão Push ==============
-#define BUTTON_PIN 19
+#define BUTTON_PIN 5
 bool buttonPressed = false;
 
 // WiFi ====================
