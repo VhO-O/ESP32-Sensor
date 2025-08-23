@@ -38,8 +38,8 @@ const char* password = "password_1234";
 AsyncWebServer server(80);
 AsyncEventSource events("/events");  // Cria o manipulador de eventos SSE
 
-// Variável para contar as amostras
-int sampleCount = 0;
+// Variáveis auxiliares
+int sampleCount = 0; // Variável para contar as amostras
 const int maxSamples = 1000;  // Limita o número de amostras no arquivo CSV
 bool doRead = true; // Configura o estado para leitura
 
