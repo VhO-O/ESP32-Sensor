@@ -3,5 +3,8 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+<<<<<<< HEAD
 
 .fake
+=======
+>>>>>>> 8dd2934 (feat: mudança na configuração da placa para a correta (esp32doit-devkit-v1))
