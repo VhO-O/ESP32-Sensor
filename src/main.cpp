@@ -519,6 +519,17 @@ void loop() {
     }
   }
 
+  /*
+  Exemplos de como executar as rotas:
+  192.168.4.1/start - Inicia a coleta
+  192.168.4.1/stop - Para a coleta
+  192.168.4.1/download - Baixa os dados em formato CSV
+  192.168.4.1/remove - Remove todos os dados salvos
+  192.168.4.1/data - Exibe os dados da ultima coleta
+  192.168.4.1/ - Exibe a interface
+  */
+
+
   CheckMemory(); // Checa se a mémoria está cheia
 
   if (doRead) {
